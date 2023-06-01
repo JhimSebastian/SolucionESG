@@ -1,15 +1,16 @@
-from src.logica.EcuacionSegundoGrado import EcuacionSegundoGrado
+# This is a sample Python script.
 
-def solucionarEcuacion (a,b,c) :
-    solucion.definirParametros ( a , b , c )
-    solucion.solucionESG ( )
-    solucion.imprimirSolución ( )
+# Press Mayús+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    solucion = EcuacionSegundoGrado ( )
+    print_hi('PyCharm')
 
-    solucionarEcuacion ( 1 , 2 , 1 )
-    solucionarEcuacion ( 1 , 2 , 3 )
-    solucionarEcuacion ( "1" , "2" , "1" )
-    solucionarEcuacion ( "a" , "b" , "c" )
-
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
